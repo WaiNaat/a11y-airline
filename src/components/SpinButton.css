@@ -5,6 +5,19 @@
   gap: 10px;
 }
 
+.hidden-mini {
+  overflow: hidden;
+  white-space: nowrap;
+  clip: rect(1px,1px,1px,1px);
+  clip-path: inset(50%);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 .spinButton {
   width: 40px;
   height: 40px;
@@ -24,6 +37,8 @@
 }
 
 .spinButtonInput {
+  width: 20px;
+  height: 20px;
   padding: 10px;
   font-size: 16px;
   border-radius: 5px;
